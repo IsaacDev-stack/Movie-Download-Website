@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="MovieHub is a modern movie discovery and download website where users can explore the latest movies, popular films and different movie categories.">
+
+    <meta name="keywords"
+        content="movies, movie download, latest movies, popular movies, action movies, comedy movies, drama movies">
+
+    <meta name="author" content="MovieHub Team">
+
+    <title>MovieHub| Movie Download</title>
+    <link rel="stylesheet" href="homepage.css">
+</head>
+<body>
+<header class="header">
+
+        <div class="container nav-container">
+
+            <!-- Logo -->
+            <a href="index.html" class="logo">
+                <span class="logo-icon">🎬</span>
+                <span>Moavie<span>Hub</span></span>
+            </a>
+
+            <nav class="navigation">
+
+                <a href="index.html" class="active">Home</a>
+
+                <a href="movies.html">Movies</a>
+
+                <a href="categories.html">Categories</a>
+
+                <a href="details.html">Movie Details</a>
+
+            </nav>
+
+            <div class="nav-search">
+                <input
+                    type="search"
+                    placeholder="Search movies..."
+                    aria-label="Search movies">
+
+                <button type="button">🔍</button>
+            </div>
+        </div>
+
+    </header>
+<main>
+
+        <section class="hero">
+
+            <div class="hero-overlay"></div>
+
+            <div class="container hero-content">
+
+                <p class="hero-small-title">
+                    WELCOME TO MovieHub
+                </p>
+
+                <h1>
+                    Discover Your Next
+                    <span>Favorite Movie</span>
+                </h1>
+
+                <p class="hero-description">
+                    Explore the latest movies, popular releases and
+                    timeless classics all in one place.
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="movies.html" class="btn btn-primary">
+                        Browse Movies
+                    </a>
+
+                    <a href="#featured" class="btn btn-secondary">
+                        Explore Featured
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <section class="quick-categories">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p class="section-subtitle">
+                            EXPLORE
+                        </p>
+
+                        <h2>
+                            Browse Categories
+                        </h2>
+                    </div>
+
+                    <a href="categories.html" class="view-all">
+                        View All →
+                    </a>
+
+                </div>
+
+
+                <div class="category-grid">
+
+                    <a href="categories.html" class="category-card">
+                        <div class="category-icon">💥</div>
+                        <h3>Action</h3>
+                        <p>120 Movies</p>
+                    </a>
+
+                    <a href="categories.html" class="category-card">
+                        <div class="category-icon">😂</div>
+                        <h3>Comedy</h3>
+                        <p>95 Movies</p>
+                    </a>
+
+                    <a href="categories.html" class="category-card">
+                        <div class="category-icon">❤️</div>
+                        <h3>Romance</h3>
+                        <p>85 Movies</p>
+                    </a>
+
+                    <a href="categories.html" class="category-card">
+                        <div class="category-icon">👻</div>
+                        <h3>Horror</h3>
+                        <p>75 Movies</p>
+                    </a>
+
+                    <a href="categories.html" class="category-card">
+                        <div class="category-icon">🚀</div>
+                        <h3>Sci-Fi</h3>
+                        <p>65 Movies</p>
+                    </a>
+
+                    <a href="categories.html" class="category-card">
+                        <div class="category-icon">🎭</div>
+                        <h3>Drama</h3>
+                        <p>110 Movies</p>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="movie-section" id="featured">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="section-subtitle">
+                            HAND PICKED
+                        </p>
+
+                        <h2>
+                            Featured Movies
+                        </h2>
+
+                    </div>
+
+                    <a href="movies.html" class="view-all">
+                        View All →
+                    </a>
+
+                </div>
+
+
+                <div class="movie-grid">
+
+
+                    <!-- MOVIE 1 -->
+
+                    <article class="movie-card">
+
+                        <div class="movie-image">
+
+                            <img
+                                src="images/inception.jpg"
+                                alt="Inception movie poster">
+
+                            <span class="movie-quality">
+                                HD
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 8.8
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>Inception</h3>
+
+                            <p>
+                                Action • Sci-Fi • Thriller
+                            </p>
+
+                            <div class="movie-bottom">
+
+                                <span>2010</span>
+
+                                <a href="details.html">
+                                    Details
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MOVIE 2 -->
+
+                    <article class="movie-card">
+
+                        <div class="movie-image">
+
+                            <img
+                                src="images/interstellar.jpg"
+                                alt="Interstellar movie poster">
+
+                            <span class="movie-quality">
+                                4K
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 8.7
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>Interstellar</h3>
+
+                            <p>
+                                Sci-Fi • Drama • Adventure
+                            </p>
+
+                            <div class="movie-bottom">
+
+                                <span>2014</span>
+
+                                <a href="details.html">
+                                    Details
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MOVIE 3 -->
+
+                    <article class="movie-card">
+
+                        <div class="movie-image">
+
+                            <img
+                            src="images/dark-knight.jpg"
+                                alt="The Dark Knight movie poster">
+
+                            <span class="movie-quality">
+                                HD
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 9.0
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>The Dark Knight</h3>
+
+                            <p>
+                                Action • Crime • Drama
+                            </p>
+
+                            <div class="movie-bottom">
+
+                                <span>2008</span>
+
+                                <a href="details.html">
+                                    Details
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MOVIE 4 -->
+
+                    <article class="movie-card">
+
+                        <div class="movie-image">
+
+                            <img
+                                src="images/avatar.jpg"
+                                alt="Avatar movie poster">
+
+                            <span class="movie-quality">
+                                HD
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 7.8
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>Avatar</h3>
+
+                            <p>
+                                Action • Adventure • Fantasy
+                            </p>
+
+                            <div class="movie-bottom">
+
+                                <span>2009</span>
+
+                                <a href="details.html">
+                                    Details
+                                </a>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             POPULAR MOVIES
+        ========================== -->
+
+        <section class="movie-section popular-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="section-subtitle">
+                            TRENDING NOW
+                        </p>
+
+                        <h2>
+                            Popular Movies
+                        </h2>
+
+                    </div>
+
+                    <a href="movies.html" class="view-all">
+                        See More →
+                    </a>
+
+                </div>
+
+
+                <div class="movie-grid">
+
+
+                    <!-- MOVIE 5 -->
+
+                    <article class="movie-card">
+
+                        <div class="movie-image">
+
+                            <img
+                                src="images/avengers.jpg"
+                                alt="Avengers movie poster">
+
+                            <span class="movie-quality">
+                                HD
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 8.0
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>Avengers: Endgame</h3>
+
+                            <p>
+                                Action • Adventure • Sci-Fi
+                            </p>
+
+                            <div class="movie-bottom">
+                                <span>2019</span>
+                                <a href="details.html">Details</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MOVIE 6 -->
+                     <article class="movie-card">
+
+                        <div class="movie-image">
+
+                            <img
+                                src="images/joker.jpg"
+                                alt="Joker movie poster">
+
+                            <span class="movie-quality">
+                                HD
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 8.3
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>Joker</h3>
+
+                            <p>
+                                Crime • Drama • Thriller
+                            </p>
+
+                            <div class="movie-bottom">
+                                <span>2019</span>
+                                <a href="details.html">Details</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MOVIE 7 -->
+
+                    <article class="movie-card">
+
+                        <div class="movie-image">
+
+                            <img
+                                src="images/tenet.jpg"
+                                alt="Tenet movie poster">
+
+                            <span class="movie-quality">
+                                4K
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 7.3
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>Tenet</h3>
+
+                            <p>
+                                Action • Sci-Fi • Thriller
+                            </p>
+
+                            <div class="movie-bottom">
+                                <span>2020</span>
+                                <a href="details.html">Details</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MOVIE 8 -->
+
+                    <article class="movie-card">
+
+                        <div class="movie-image">
+
+                            <img
+                                src="images/gladiator.jpg"
+                                alt="Gladiator movie poster">
+
+                            <span class="movie-quality">
+                                HD
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 8.5
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>Gladiator</h3>
+
+                            <p>
+                                Action • Drama • History
+                            </p>
+
+                            <div class="movie-bottom">
+                                <span>2000</span>
+                                <a href="details.html">Details</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LATEST MOVIES
+        ========================== -->
+
+        <section class="movie-section latest-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <p class="section-subtitle">
+                            NEW RELEASES
+                        </p>
+
+                        <h2>
+                            Latest Movies
+                        </h2>
+
+                    </div>
+
+                    <a href="movies.html" class="view-all">
+                        View All →
+                    </a>
+
+                </div>
+
+
+                <div class="movie-grid">
+
+
+                    <!-- MOVIE 9 -->
+
+                    <article class="movie-card">
+                        <div class="movie-image">
+
+                            <img
+                                src="images/dune.jpg"
+                                alt="Dune movie poster">
+
+                            <span class="movie-quality">
+                                4K
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 8.0
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>Dune</h3>
+
+                            <p>
+                                Adventure • Drama • Sci-Fi
+                            </p>
+
+                            <div class="movie-bottom">
+                                <span>2021</span>
+                                <a href="details.html">Details</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MOVIE 10 -->
+
+                    <article class="movie-card">
+
+                        <div class="movie-image">
+
+                            <img
+                                src="images/oppenheimer.jpg"
+                                alt="Oppenheimer movie poster">
+
+                            <span class="movie-quality">
+                                HD
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 8.6
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>Oppenheimer</h3>
+
+                            <p>
+                                Biography • Drama • History
+                            </p>
+
+                            <div class="movie-bottom">
+                                <span>2023</span>
+                                <a href="details.html">Details</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MOVIE 11 -->
+
+                    <article class="movie-card">
+
+                        <div class="movie-image">
+
+                            <img
+                                src="images/black-panther.jpg"
+                                alt="Black Panther movie poster">
+
+                            <span class="movie-quality">
+                                HD
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 7.3
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>Black Panther</h3>
+
+                            <p>
+                                Action • Adventure • Sci-Fi
+                            </p>
+
+                            <div class="movie-bottom">
+                                <span>2018</span>
+                                <a href="details.html">Details</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- MOVIE 12 -->
+
+                    <article class="movie-card">
+
+                        <div class="movie-image">
+
+                            <img
+                                src="images/top-gun.jpg"
+                                alt="Top Gun Maverick movie poster">
+
+                            <span class="movie-quality">
+                                4K
+                            </span>
+
+                            <span class="movie-rating">
+                                ⭐ 8.2
+                            </span>
+
+                        </div>
+
+                        <div class="movie-info">
+
+                            <h3>Top Gun: Maverick</h3>
+
+                            <p>
+                                Action • Drama
+                            </p>
+
+                            <div class="movie-bottom">
+                                <span>2022</span>
+                                <a href="details.html">Details</a>
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             WHY CINEVAULT
+        ========================== -->
+
+        <section class="features">
+
+            <div class="container">
+
+                <div class="section-heading centered">
+
+                    <div>
+
+                        <p class="section-subtitle">
+                            WHY CINEVAULT
+                        </p>
+
+                        <h2>
+                            Everything You Need
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="feature-grid">
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            🎬
+                        </div>
+
+                        <h3>
+                            Large Movie Collection
+                        </h3>
+
+                        <p>
+                            Discover movies from different genres,
+                            years and categories.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            ⚡
+                        </div>
+
+                        <h3>
+                            Easy Navigation
+                        </h3>
+
+                        <p>
+                            Find your favorite movies quickly
+                            using our simple interface.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            🔎
+                        </div>
+
+                        <h3>
+                            Detailed Information
+                        </h3>
+
+                        <p>
+                            Explore movie ratings, genres,
+                            release years and descriptions.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            📱
+                        </div>
+
+                        <h3>
+                            Responsive Design
+                        </h3>
+
+                        <p>
+                            Enjoy a clean interface on phones,
+                            tablets and desktop screens.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container footer-grid">
+
+
+            <!-- ABOUT -->
+
+            <div class="footer-column">
+
+                <a href="index.html" class="logo footer-logo">
+
+                    <span class="logo-icon">🎬</span>
+
+                    <span>
+                        Cine<span>Vault</span>
+                    </span>
+
+                </a>
+
+                <p>
+                    CineVault is a student-built movie discovery
+                    website created using HTML and CSS.
+                </p>
+
+            </div>
+
+
+            <!-- QUICK LINKS -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Quick Links
+                </h3>
+
+                <a href="index.html">Home</a>
+
+                <a href="movies.html">Movies</a>
+
+                <a href="categories.html">Categories</a>
+
+                <a href="details.html">Movie Details</a>
+
+            </div>
+
+
+            <!-- GENRES -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Genres
+                </h3>
+
+                <a href="categories.html">
+                    Action
+                </a>
+                <a href="categories.html">
+                    Comedy
+                </a>
+
+                <a href="categories.html">
+                    Drama
+                </a>
+
+                <a href="categories.html">
+                    Sci-Fi
+                </a>
+
+            </div>
+
+
+            <!-- INFORMATION -->
+
+            <div class="footer-column">
+
+                <h3>
+                    Project
+                </h3>
+
+                <p>
+                    Built with:
+                </p>
+
+                <span class="technology">
+                    HTML5
+                </span>
+
+                <span class="technology">
+                    CSS3
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+                    © 2026 CineVault. Student Project.
+                    All rights reserved.
+                </p>
+
+                <p>
+                    Designed & Developed by CineVault Team
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
